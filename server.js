@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
-const menuRoutes = require("../Routes/MenuRoutes");
+const menuRoutes = require("./Routes/MenuRoutes");
 app.use("/api", menuRoutes);
 
 // Connect to MongoDB
